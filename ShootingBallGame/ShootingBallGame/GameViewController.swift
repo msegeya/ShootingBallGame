@@ -10,6 +10,8 @@ import UIKit
 import SpriteKit
 
 class GameViewController: UIViewController {
+    
+//    var cannont : SKSpriteNode!
 
     override func viewDidLoad() {
         super.viewDidLoad()
