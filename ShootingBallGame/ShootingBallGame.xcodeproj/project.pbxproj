@@ -16,6 +16,7 @@
 		DA99C4CE1C93D12A007D37BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA99C4CC1C93D12A007D37BC /* LaunchScreen.storyboard */; };
 		DA99C4D91C93D12B007D37BC /* ShootingBallGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C4D81C93D12B007D37BC /* ShootingBallGameTests.swift */; };
 		DA99C4E41C93D12B007D37BC /* ShootingBallGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C4E31C93D12B007D37BC /* ShootingBallGameUITests.swift */; };
+		DA99C4F61C94D1F5007D37BC /* Ball.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA99C4F51C94D1F5007D37BC /* Ball.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DA99C4DF1C93D12B007D37BC /* ShootingBallGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootingBallGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA99C4E31C93D12B007D37BC /* ShootingBallGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingBallGameUITests.swift; sourceTree = "<group>"; };
 		DA99C4E51C93D12B007D37BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA99C4F51C94D1F5007D37BC /* Ball.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ball.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DA99C4CA1C93D12A007D37BC /* Assets.xcassets */,
 				DA99C4CC1C93D12A007D37BC /* LaunchScreen.storyboard */,
 				DA99C4CF1C93D12A007D37BC /* Info.plist */,
+				DA99C4F51C94D1F5007D37BC /* Ball.sks */,
 			);
 			path = ShootingBallGame;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				DA99C4C21C93D12A007D37BC /* GameScene.sks in Resources */,
 				DA99C4CE1C93D12A007D37BC /* LaunchScreen.storyboard in Resources */,
 				DA99C4CB1C93D12A007D37BC /* Assets.xcassets in Resources */,
+				DA99C4F61C94D1F5007D37BC /* Ball.sks in Resources */,
 				DA99C4C91C93D12A007D37BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
