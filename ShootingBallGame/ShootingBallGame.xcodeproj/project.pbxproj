@@ -10,6 +10,9 @@
 		DA810EF51C94E73D00AE7B2F /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA810EF31C94E73D00AE7B2F /* Fire.sks */; };
 		DA810EF61C94E73D00AE7B2F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA810EF41C94E73D00AE7B2F /* spark.png */; };
 		DA810EF81C94E85C00AE7B2F /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA810EF71C94E85C00AE7B2F /* SparkParticle.sks */; };
+		DA810EFD1C95371900AE7B2F /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA810EFA1C95371900AE7B2F /* bg.mp3 */; };
+		DA810EFE1C95371900AE7B2F /* cannon.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA810EFB1C95371900AE7B2F /* cannon.wav */; };
+		DA810EFF1C95371900AE7B2F /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA810EFC1C95371900AE7B2F /* hit.wav */; };
 		DA99C4C01C93D12A007D37BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C4BF1C93D12A007D37BC /* AppDelegate.swift */; };
 		DA99C4C21C93D12A007D37BC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA99C4C11C93D12A007D37BC /* GameScene.sks */; };
 		DA99C4C41C93D12A007D37BC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C4C31C93D12A007D37BC /* GameScene.swift */; };
@@ -43,6 +46,9 @@
 		DA810EF31C94E73D00AE7B2F /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		DA810EF41C94E73D00AE7B2F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		DA810EF71C94E85C00AE7B2F /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
+		DA810EFA1C95371900AE7B2F /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		DA810EFB1C95371900AE7B2F /* cannon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cannon.wav; sourceTree = "<group>"; };
+		DA810EFC1C95371900AE7B2F /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
 		DA99C4BC1C93D12A007D37BC /* ShootingBallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootingBallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA99C4BF1C93D12A007D37BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA99C4C11C93D12A007D37BC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -86,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA810EF91C95371900AE7B2F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DA810EFA1C95371900AE7B2F /* bg.mp3 */,
+				DA810EFB1C95371900AE7B2F /* cannon.wav */,
+				DA810EFC1C95371900AE7B2F /* hit.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		DA99C4B31C93D12A007D37BC = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +137,7 @@
 				DA810EF31C94E73D00AE7B2F /* Fire.sks */,
 				DA810EF41C94E73D00AE7B2F /* spark.png */,
 				DA810EF71C94E85C00AE7B2F /* SparkParticle.sks */,
+				DA810EF91C95371900AE7B2F /* Audio */,
 			);
 			path = ShootingBallGame;
 			sourceTree = "<group>";
@@ -250,8 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA810EFF1C95371900AE7B2F /* hit.wav in Resources */,
 				DA99C4C21C93D12A007D37BC /* GameScene.sks in Resources */,
 				DA99C4CE1C93D12A007D37BC /* LaunchScreen.storyboard in Resources */,
+				DA810EFD1C95371900AE7B2F /* bg.mp3 in Resources */,
+				DA810EFE1C95371900AE7B2F /* cannon.wav in Resources */,
 				DA99C4CB1C93D12A007D37BC /* Assets.xcassets in Resources */,
 				DA810EF61C94E73D00AE7B2F /* spark.png in Resources */,
 				DA810EF51C94E73D00AE7B2F /* Fire.sks in Resources */,
