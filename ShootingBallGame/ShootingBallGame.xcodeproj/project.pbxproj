@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA810EF51C94E73D00AE7B2F /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA810EF31C94E73D00AE7B2F /* Fire.sks */; };
+		DA810EF61C94E73D00AE7B2F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA810EF41C94E73D00AE7B2F /* spark.png */; };
+		DA810EF81C94E85C00AE7B2F /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA810EF71C94E85C00AE7B2F /* SparkParticle.sks */; };
 		DA99C4C01C93D12A007D37BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C4BF1C93D12A007D37BC /* AppDelegate.swift */; };
 		DA99C4C21C93D12A007D37BC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA99C4C11C93D12A007D37BC /* GameScene.sks */; };
 		DA99C4C41C93D12A007D37BC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C4C31C93D12A007D37BC /* GameScene.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA810EF31C94E73D00AE7B2F /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		DA810EF41C94E73D00AE7B2F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		DA810EF71C94E85C00AE7B2F /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
 		DA99C4BC1C93D12A007D37BC /* ShootingBallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootingBallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA99C4BF1C93D12A007D37BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA99C4C11C93D12A007D37BC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				DA99C4CC1C93D12A007D37BC /* LaunchScreen.storyboard */,
 				DA99C4CF1C93D12A007D37BC /* Info.plist */,
 				DA99C4F51C94D1F5007D37BC /* Ball.sks */,
+				DA810EF31C94E73D00AE7B2F /* Fire.sks */,
+				DA810EF41C94E73D00AE7B2F /* spark.png */,
+				DA810EF71C94E85C00AE7B2F /* SparkParticle.sks */,
 			);
 			path = ShootingBallGame;
 			sourceTree = "<group>";
@@ -244,6 +253,9 @@
 				DA99C4C21C93D12A007D37BC /* GameScene.sks in Resources */,
 				DA99C4CE1C93D12A007D37BC /* LaunchScreen.storyboard in Resources */,
 				DA99C4CB1C93D12A007D37BC /* Assets.xcassets in Resources */,
+				DA810EF61C94E73D00AE7B2F /* spark.png in Resources */,
+				DA810EF51C94E73D00AE7B2F /* Fire.sks in Resources */,
+				DA810EF81C94E85C00AE7B2F /* SparkParticle.sks in Resources */,
 				DA99C4F61C94D1F5007D37BC /* Ball.sks in Resources */,
 				DA99C4C91C93D12A007D37BC /* Main.storyboard in Resources */,
 			);
