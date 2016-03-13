@@ -43,8 +43,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let vx:CGFloat = CGFloat(cosf(angleInRadians)) * speed
         let vy:CGFloat = CGFloat(sinf(angleInRadians)) * speed
         ball.physicsBody?.applyImpulse(CGVectorMake(vx, vy))
-        ball.physicsBody?.collisionBitMask = wallMask | ballMask | pegMask | orangePegMask
-        ball.physicsBody?.contactTestBitMask = ball.physicsBody!.collisionBitMask | squareMask
+        ball.physicsBody?.collisionBitMask = wallMask | ballMask | pegMask | orangePegMask | squareMask
+        ball.physicsBody?.contactTestBitMask = ball.physicsBody!.collisionBitMask
     }
     
     override func update(currentTime: CFTimeInterval) {
